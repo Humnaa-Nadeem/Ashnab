@@ -31,9 +31,9 @@ export default async function LiveClassesPage() {
   ];
 
   const steps = [
-    { title: t('step1Title', { default: '1. Choose a Course' }), desc: t('step1Desc', { default: 'Select from our range of specialized courses like Tajweed, Hifz, or Translation.' }) },
-    { title: t('step2Title', { default: '2. Schedule Your Class' }), desc: t('step2Desc', { default: 'Pick a time that works best for you. Classes are available 24/7.' }) },
-    { title: t('step3Title', { default: '3. Start Learning' }), desc: t('step3Desc', { default: 'Join your instructor live via Zoom or Google Meet and begin your journey.' }) },
+    { title: t('step1Title', { default: '1. Choose a Course' }), description: t('step1Desc', { default: 'Select from our range of specialized courses like Tajweed, Hifz, or Translation.' }) },
+    { title: t('step2Title', { default: '2. Schedule Your Class' }), description: t('step2Desc', { default: 'Pick a time that works best for you. Classes are available 24/7.' }) },
+    { title: t('step3Title', { default: '3. Start Learning' }), description: t('step3Desc', { default: 'Join your instructor live via Zoom or Google Meet and begin your journey.' }) },
   ];
 
   return (
@@ -104,7 +104,7 @@ export default async function LiveClassesPage() {
                 </div>
                 <h3 className="text-xl font-bold pt-4">{step.title}</h3>
                 <p className="text-primary-foreground/80">
-                  {step.description || step.desc}
+                  {step.description}
                 </p>
               </div>
             ))}
