@@ -4,7 +4,7 @@ import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { getCourses } from '@/lib/data/mock';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Clock, BookOpen, Users, Award, CheckCircle2, ArrowRight, GraduationCap, PlayCircle } from 'lucide-react';
+import { Clock, BookOpen, Users, Award, CheckCircle2, ArrowRight, GraduationCap, PlayCircle, Star } from 'lucide-react';
 
 type Course = { id: string; title: string; image_url?: string; is_featured?: boolean; level: string; price: number; slug: string; short_description: string; duration: string; };
 
