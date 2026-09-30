@@ -142,7 +142,7 @@ export default async function HomePage({ params }: { params: Promise<{locale: st
               <Card key={course.id} className="group flex flex-col overflow-hidden hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 border-0 shadow-lg bg-white dark:bg-slate-900 rounded-2xl">
                 <div className="aspect-[4/3] bg-muted flex items-center justify-center relative overflow-hidden">
                   {course.image_url ? (
-                    <Image src={course.image_url} alt={course.title} width={400} height={300} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <Image src={course.image_url} alt={course.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   ) : (
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex flex-col items-center justify-center text-primary/60 group-hover:scale-105 transition-transform duration-500">
                       <BookOpen size={64} className="mb-4 opacity-50" />

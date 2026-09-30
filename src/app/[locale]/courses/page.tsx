@@ -38,9 +38,8 @@ export default async function CoursesPage({
                   <Image 
                     src={course.image_url} 
                     alt={course.title} 
-                    width={600} 
-                    height={450} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-500" 
                   />
                 ) : (
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex flex-col items-center justify-center text-primary/60 group-hover:scale-105 transition-transform duration-500">

@@ -2,7 +2,7 @@ export const mockCourses = [
   {
     id: 'course-1',
     slug: 'tafsir',
-    image_url: 'https://images.unsplash.com/photo-1609599006353-e629aaab315a?q=80&w=1000&auto=format&fit=crop',
+    image_url: 'https://images.unsplash.com/photo-1574246604907-db69e30fd797?q=80&w=1000&auto=format&fit=crop',
     price: 10000,
     duration: '1 Year',
     level: 'Advanced',
