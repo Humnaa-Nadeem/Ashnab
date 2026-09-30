@@ -146,7 +146,7 @@ export const mockCourses = [
   {
     id: 'course-4',
     slug: 'khatm-ul-quran',
-    image_url: 'https://images.unsplash.com/photo-1519817650390-64a4560a340a?q=80&w=1000&auto=format&fit=crop',
+    image_url: 'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?q=80&w=1000&auto=format&fit=crop',
     price: 7000,
     duration: '6 Months',
     level: 'All Levels',
@@ -194,7 +194,7 @@ export const mockCourses = [
   {
     id: 'course-5',
     slug: 'hifz',
-    image_url: 'https://images.unsplash.com/photo-1579621970221-50e531fb5b26?q=80&w=1000&auto=format&fit=crop',
+    image_url: 'https://images.unsplash.com/photo-1585036156171-384164a8c675?q=80&w=1000&auto=format&fit=crop',
     price: 15000,
     duration: '2 Years',
     level: 'Advanced',
@@ -242,7 +242,7 @@ export const mockCourses = [
   {
     id: 'course-6',
     slug: 'islamic-studies',
-    image_url: 'https://images.unsplash.com/photo-1596772740924-d2e3be77ce71?q=80&w=1000&auto=format&fit=crop',
+    image_url: 'https://images.unsplash.com/photo-1574246604907-db69e30fd797?q=80&w=1000&auto=format&fit=crop',
     price: 6000,
     duration: '4 Months',
     level: 'Beginner',
