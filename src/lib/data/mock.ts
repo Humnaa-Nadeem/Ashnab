@@ -2,7 +2,7 @@ export const mockCourses = [
   {
     id: 'course-1',
     slug: 'tafsir',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Birmingham_Quran_manuscript_full.jpg/1280px-Birmingham_Quran_manuscript_full.jpg',
+    image_url: '/images/course1.png',
     price: 10000,
     duration: '1 Year',
     level: 'Advanced',
@@ -50,7 +50,7 @@ export const mockCourses = [
   {
     id: 'course-2',
     slug: 'qaida',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Folios_1b-2a_from_Part_15_of_a_30-part_Qur%E2%80%99an_copied_by_Ya%27qut_al-Musta%27simi_in_Baghdad_1282-1283_AD_%28681_AH%29_%28cropped%29.jpg/1280px-Folios_1b-2a_from_Part_15_of_a_30-part_Qur%E2%80%99an_copied_by_Ya%27qut_al-Musta%27simi_in_Baghdad_1282-1283_AD_%28681_AH%29_%28cropped%29.jpg',
+    image_url: '/images/course2.png',
     price: 5000,
     duration: '3 Months',
     level: 'Beginner',
@@ -98,7 +98,7 @@ export const mockCourses = [
   {
     id: 'course-3',
     slug: 'tarjuma',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Masjid_Nabawi_The_Prophet%27s_Mosque%2C_Madina.jpg/1280px-Masjid_Nabawi_The_Prophet%27s_Mosque%2C_Madina.jpg',
+    image_url: '/images/course3.png',
     price: 8000,
     duration: '6 Months',
     level: 'Intermediate',
@@ -146,7 +146,7 @@ export const mockCourses = [
   {
     id: 'course-4',
     slug: 'khatm-ul-quran',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_%28NE_exposure%29.jpg/1280px-Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_%28NE_exposure%29.jpg',
+    image_url: '/images/course4.png',
     price: 7000,
     duration: '6 Months',
     level: 'All Levels',
@@ -194,7 +194,7 @@ export const mockCourses = [
   {
     id: 'course-5',
     slug: 'hifz',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg/1280px-The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg',
+    image_url: '/images/course4.png',
     price: 15000,
     duration: '2 Years',
     level: 'Advanced',
@@ -242,7 +242,7 @@ export const mockCourses = [
   {
     id: 'course-6',
     slug: 'islamic-studies',
-    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Great_Mosque_of_Mecca1.jpg/1280px-Great_Mosque_of_Mecca1.jpg',
+    image_url: '/images/course6.png',
     price: 6000,
     duration: '4 Months',
     level: 'Beginner',
